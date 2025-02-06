@@ -25,3 +25,29 @@
     align-items: center;
     gap: var(--gap-m);
 }
+
+.botao-enviar {
+    padding: var(--padding-s) var(--padding-l);
+    background-color: var(--cor-primaria-light);
+    color: var(--cor-neutral-light);
+    border: none;
+    border-radius: 32rem;
+    cursor: pointer;
+    font-size: var(--font-size-xm);
+}
+
+.formulario-input {
+    padding: var(--padding-s) var(--padding-l);
+    border: 1px solid var(--cor-neutra-dark);
+    background-color: transparent;
+    flex: 1 0 200px;
+    border-radius: 2rem;
+}
+
+.formulario-input:user-valid {
+    border: 2px solid var(--cor-terciaria-dark);
+}
+
+.formulario-input:user-invalid {
+    border: 2px solid var(--cor-primaria-dark);
+}
